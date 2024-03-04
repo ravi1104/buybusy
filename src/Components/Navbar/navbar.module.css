@@ -1,0 +1,53 @@
+.navbar {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(106, 106, 255);
+} 
+ 
+ .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* Navigation links styles */
+  .navbar a {
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+  }
+  .home{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+  }
+  
+  h1 {
+    margin: 0 15px;
+  }
+  
+  /* Cart icon styles */
+  .cartIcon {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  
+
+  
+  .navbar:nth-child(1) {
+    padding-left: 20px;
+    font-weight: bold;
+  }
+  
+  .right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 20px;
+  }
+  
