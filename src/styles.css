@@ -12,14 +12,14 @@
 }
 .home{
   display: flex;
-  width: 70vw;
+  width: 80vw;
   flex-wrap: wrap;
   padding: 60px 0px;
   justify-content: center;
 }
 .filter {
-  width: 30vw;
-  display: flex;
+  width: 10vw;
+  /* display: flex; */
   justify-content: center;
 }
 
