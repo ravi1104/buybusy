@@ -52,7 +52,7 @@ const Product = ({ product }) => {
     <div className="product-container">
       <img className="product-image" src={url} alt={description} />
       <h2 className="product-name">{name}</h2>
-      <h3 className="product-description">{description}</h3>
+      <p className="product-description">{description}</p>
       <p className="product-price">{`Price: $${price}`}</p>
       <button className="add-to-cart-button" onClick={() => addToCart(product.id)}>
         Add to Cart
